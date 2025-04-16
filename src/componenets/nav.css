@@ -1,0 +1,16 @@
+.mainNav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33vw;
+}
+
+.navContainer {
+    position: absolute;
+    top: 0;
+    left: 10vw;
+    max-width: 1280px;
+}
+
+.home{
+    margin: 0 2em;
+}

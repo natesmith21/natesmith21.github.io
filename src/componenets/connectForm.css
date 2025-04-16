@@ -1,0 +1,20 @@
+.btnArea {
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.btnArea > button {
+    margin-right: .5em;
+}
+
+.submitBtn {
+    color: hsl(217, 90%, 22%);
+    outline: hsl(217, 90%, 22%);
+}
+.submitBtn:hover {
+    background-color: hsl(217, 60%, 45%);;
+    outline: hsl(217, 60%, 45%);
+    color: #fff;
+}
