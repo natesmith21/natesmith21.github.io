@@ -20,6 +20,7 @@ const AboutMe = () => {
             <li>
                 good at following docs -- proven with slate and with school 
             </li>
+            <li>puedo hablar espanol</li>
         </ul>
         </section>
         </>
