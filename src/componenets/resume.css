@@ -25,7 +25,7 @@
     align-self: flex-end;
 }
 
-img {
+#profile_pic img {
     border-radius: 50%;
     border: 2px hsl(217, 75%, 22%);
     width: 200px;

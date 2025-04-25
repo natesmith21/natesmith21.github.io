@@ -87,13 +87,18 @@ const Resume = () => {
                         HTML/CSS
                     </li>
                     <li>
-                       Slate by Technolutions 
+                       Slate by Technolutions
+                       <ul>
+                        <li>
+                            UTM + Google Analytics 
+                        </li>
+                        <li>
+                            Slate Ping
+                        </li>
+                       </ul>
                     </li>
                     <li>
-                       UTM + Google Analytics 
-                    </li>
-                    <li>
-                        Slate Ping
+                        Agile Environments -- using both scrum (jira) and kanban (trello, microsoft planner) 
                     </li>
                 </ul>
 
