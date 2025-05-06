@@ -5,7 +5,7 @@ import AboutMe from "./About";
 import Resume from './Resume'
 import Projects from "./Projects";
 import ContactForm from "./Connect";
-import Resume2 from "./Resume2.0";
+
 
 const Router = () => {
 
@@ -15,7 +15,6 @@ const Router = () => {
             <Route path='/' element={<Home />}/>
             <Route path='/aboutme' element={<AboutMe />}/>
             <Route path='/resume' element={<Resume />}/>
-            <Route path='/resume2' element={<Resume2 />}/>
             <Route path='/projects' element={<Projects />}/>
             <Route path='/connect' element={<ContactForm />}/>
         </Routes>

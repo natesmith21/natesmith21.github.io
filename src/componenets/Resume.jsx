@@ -1,138 +1,83 @@
 import React from "react";
-import './resume.css';
+import './resume2.css'
 import headshot from '../assets/nate_lake_canada.png'
+import { Container, Col } from "reactstrap";
 
 const Resume = () => {
 
     return (
         <>
-        <div class="paper">
-            <section class="intro_container">
-                <div id="profile_pic"> 
-                    <img src={headshot} alt="Nate Smith Headshot" />
-                </div>
-                <div id="name">
-                    <h1>Nathan Smith</h1>
-                </div>
-            </section>
-            <section class="summary">
-                <h2>Summary</h2>
-                <p>
-                    I'm an ambitious problem solver and sales-ops professional seeking to build on my experience with a Software Developer Certificate. My combination MBA + Cert + work experience clearly makes me a rare breed.
-                     </p>
-            </section>
-            <section class="experience">
-                <h2>Experience</h2>
+        <Container fluid="md" className="intro">
+         <img src={headshot} id="profile_pic" alt="Nate Smith Headshot" />
+         <h1>Nathan Smith</h1>
+         <h2>Summary</h2>
+         <p>
+         Versatile operations specialist with 7+ years of experience harnessing data, CRM systems, and process improvements to drive admissions and enrollment success. Proven track record of building scalable database solutions, leading reporting initiatives, and collaborating cross-functionally to solve complex problems. Just completed a Full Stack Software Development Certificate to deepen technical expertise and transition into a software development role. Unique blend of business acumen (MBA), technical proficiency, and analytical rigor — poised to contribute as a developer with strong operational insight.
+         </p>
+        </Container>
+        <Container fluid="md">
+            <h2>Experience</h2>
+            <Container className="experience">
+                <Col>
+                <h3 className="experienceTitle">Queens University of Charlotte</h3>
+                <p className="dates">Charlotte, NC -- July 2017 - June 2024</p>
                 <ul>
                     <li>
-                        <h3>Assistant Director for Enrollment Operations</h3>
-                        <ul>
+                    <h3 className="experienceTitle">Assistant Director for Enrollment Operations</h3>
+                        <ul className="expExamples">
                             <li>
-                                Maintained several application portal 'views' for students completing their application, those who have been admited, and those who have commited to comeing, among other custom content. 
+                            Partnered with the Vice President and Director of Admissions to guide, track, and optimize office workflows using data-driven insights
                             </li>
                             <li>
-                                Collaborated with the Director and Assistant Directors of admissions to organize weekly call lists for admissions counselor outreach. 
+                            Managed and maintained Slate CRM database tools, building enhanced functionality for application processing and communication   
                             </li>
                             <li>
-                                Led our teams reporting efforts - I created and maintained our most crucial reports
+                            Wrote queries to export data for internal stakeholders and external partners (via API and SFTP)
                             </li>
                             <li>
-                                I was the main point of contact for further data-analysis projects we worked on with thrid party partners where I sent and received data via API and SFTP and ensured we shared with them clean and accurate data
+                            Maintained application portal views for applicants, admitted, and committed students, delivering custom content throughout the enrollment funnel
                             </li>
-                            <li>
-                                Created Documentation for work completed. 
+                            <li>Led reporting efforts, creating and maintaining mission-critical reports for leadership</li>
+                            <li>Created and maintained documentation for all systems and reporting workflows
                             </li>
+                            <li>Organized weekly call lists to support counselor outreach and enrollment initiatives</li>
                         </ul>
                     </li>
                     <li>
-                        <h3>Admissions Operatins Analyst</h3>
-                        <ul>
-                            <li>
-                                I self-taught myself advanced Query writing skills, and became our teams go-to for query writing. This included mass emails, data analysis efforts, and data sharing for national reporting.
+                    <h3 className="experienceTitle">Admissions Operations Analyst</h3>
+                        <ul className="expExamples">
+                            <li>Self-taught advanced Slate query writing; became the team's go-to expert for data pulls supporting mass communications, analysis, and national reporting</li>
+                            <li>Designed and implemented a streamlined Nursing School application process, increasing application volume and improving reporting accuracy
                             </li>
-                            <li>
-                                Designed and implemented a simplified, streamlined Nursing School application, which reduced barriers for students, allowing us to grow our application pool and report more accuratly on nursing student applicants.
+                            <li>Developed Queens's first custom student application portal using HTML/CSS, enabling dynamic and branded content delivery to segmented student groups
                             </li>
-                            <li>
-                                I self-taught myself simple HTML/CSS and created Queens's first custom student applicaion portal. This allowed us to share more dynamic, custom and branded information to students across different demographics. 
-                            </li>
+                            <li>Supported data integration projects with IT and third-party partners, ensuring accuracy and consistency of exchanged datasets</li>
                         </ul>
                     </li>
                     <li>
-                        <h3>Admissions Counselor</h3>
-                        <ul>
-                            <li>
-                                I was the face and primary point of contact for 150-200 prospective Adult and Transfer Students per semester. In my best semester, I net 50 students across both populations.
+                        <h3 className="experienceTitle">Admissions Counselor</h3>
+                        <ul className="expExamples">
+                            <li>Served as primary point of contact for 150–200 prospective Adult and Transfer Students per semester, enrolling up to 50 students in a single term</li>
+                            <li>Managed Upper Division Nursing applications, collaborating with the Nursing Department to admit top candidates into a competitive program</li>
+                            <li>Delivered high-quality customer service through in-person meetings, phone consultations, and email communications</li>
+                            <li>Represented Queens University at community colleges across North Carolina, building relationships with students and advising staff
                             </li>
-                            <li>
-                                My division also handled the Upper Division Nursing applictions, where we worked with the Nursing Department to admit the top students to a competitive program.
-                            </li>
+                            <li>Reviewed and evaluated application materials as part of a holistic admissions process</li>
                         </ul>
                     </li>
                 </ul>
-            </section>
-            <section class="skills">
-                <h2>Relevant Skills</h2>
-                <ul>
-                    <li>
-                       SQL (postgres)
-                    </li>
-                    <li>
-                       Python (Flask/Django)
-                    </li>
-                    <li>
-                       JavaScript (Node, Express, React)
-                    </li>
-                    <li>
-                        HTML/CSS
-                    </li>
-                    <li>
-                        git
-                    </li>
-                    <li>
-                       Slate by Technolutions
-                       <ul>
-                        <li>
-                            UTM + Google Analytics 
-                        </li>
-                        <li>
-                            Slate Ping
-                        </li>
-                       </ul>
-                    </li>
-                    <li>
-                        Agile Environments -- using both scrum (jira) and kanban (trello, microsoft planner) 
-                    </li>
-                </ul>
-
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        <h3>Gonzaga University</h3>
-                        <ul>
-                            <li>
-                                Software Development Certificate - April 2025
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Queens University of Charlotte</h3>
-                    
-                        <ul>
-                            <li>
-                                Master of Business Administration - 2020
-                            </li>
-                            <li>
-                                Bachelor of Arts Communication - 2017
-                            </li>
-                            <li>4-year Cross Country + Track Athlete</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            </div>
+                </Col>
+            </Container>
+        </Container>
+        <Container>
+            <h2>Education</h2>
+            <h3 className="experienceTitle">Software Engineering Certificate</h3>
+            <p className="dates">Gonzaga University -- 2025</p>
+            <h3 className="experienceTitle">Master of Business Administration</h3>
+            <p className="dates">Queens University of Charlotte -- 2020</p>
+            <h3 className="experienceTitle">Bachelor of Arts in Communication</h3>
+            <p className="dates">Queens University of Charlotte -- 2017</p>
+        </Container>
         </>
     )
 }
