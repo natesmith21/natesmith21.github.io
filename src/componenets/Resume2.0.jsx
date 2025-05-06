@@ -12,161 +12,57 @@ const Resume2 = () => {
          <h1>Nathan Smith</h1>
          <h2>Summary</h2>
          <p>
-            I'm an ambitious problem solver and sales-ops professional seeking to build on my experience with a Software Developer Certificate. My combination MBA + Cert + work experience clearly makes me a rare breed.
+         Versatile operations specialist with 7+ years of experience harnessing data, CRM systems, and process improvements to drive admissions and enrollment success. Proven track record of building scalable database solutions, leading reporting initiatives, and collaborating cross-functionally to solve complex problems. Just completed a Full Stack Software Development Certificate to deepen technical expertise and transition into a software development role. Unique blend of business acumen (MBA), technical proficiency, and analytical rigor — poised to contribute as a developer with strong operational insight.
          </p>
         </Container>
         <Container fluid="md">
-            <h2>Skills + Work Experience</h2>
+            <h2>Experience</h2>
             <Container className="experience">
                 <Col>
-                <h3 className="experienceTitle">Slate @ QUoC</h3>
-                <p className="dates">07/2017 - 06/2024</p>
-                <p>
-                    I worked in the Admissions office at Queens University of Charlotte from July 2017 until June 2024. I was breifly an Admssions counselor there, but I worked predominately on the Operations Team. We used Slate by Technolutions as our CRM. While there I had several job titles, but my role was consistent - to be our office's Slate Expert.
-                </p>
+                <h3 className="experienceTitle">Queens University of Charlotte</h3>
+                <p className="dates">Charlotte, NC -- July 2017 - June 2024</p>
                 <ul>
                     <li>
-                        Database Configuration and Management
-                        <p className="expDesc">
-                            Over my time at Queens I became an integral part to our team of Slate power-users. I lead several projects in both the undergraduate and graduate instances of Slate which required planning and creation of new fields. I became a trusted source for information due to my ability to quickly and accurately query our database. 
-                        </p>
+                    <h3 className="experienceTitle">Assistant Director for Enrollment Operations</h3>
                         <ul className="expExamples">
                             <li>
-                                Created new data fields, migrated data, removed depreciated fields, created retention policies inline with university policies
+                            Partnered with the Vice President and Director of Admissions to guide, track, and optimize office workflows using data-driven insights
                             </li>
                             <li>
-                                Internal and External Integrations
-                                <p className="exampleDesc">
-                                    I worked with IT on internal integrations with Jenzabar, PowerFAIDs, and ARMs. I also set up incoming dataflows from ACT, SAT, Rasie.Me, Niche. I created several daily reports which were shared with consultants via SFTP.
-                                    </p>    
+                            Managed and maintained Slate CRM database tools, building enhanced functionality for application processing and communication   
                             </li>
                             <li>
-                                Created and Maintained Users + User Permissions
+                            Wrote queries to export data for internal stakeholders and external partners (via API and SFTP)
                             </li>
+                            <li>
+                            Maintained application portal views for applicants, admitted, and committed students, delivering custom content throughout the enrollment funnel
+                            </li>
+                            <li>Led reporting efforts, creating and maintaining mission-critical reports for leadership</li>
+                            <li>Created and maintained documentation for all systems and reporting workflows
+                            </li>
+                            <li>Organized weekly call lists to support counselor outreach and enrollment initiatives</li>
                         </ul>
                     </li>
                     <li>
-                        Admissions Marketing Efforts
-                        <p className="expDesc">
-                            As a small instituion our Marketing Efforts greatly impacted our Enrollment.  Along with efforts to deliver marketing messages to students, I created several reports and dashboards to track our efforts. 
-                        </p>
+                    <h3 className="experienceTitle">Admissions Operations Analyst</h3>
                         <ul className="expExamples">
-                            <li>
-                                Call Plans
-                                <p className="exampleDesc">
-                                    A main responsibilty of our Admissions Counselors was calling and connecting with students and thier familes. I worked with our Director and Assistant Directors to conceptualize the group of people to be called, as well create and organize the lists for our counselors to make the outreach. 
-                                </p>
+                            <li>Self-taught advanced Slate query writing; became the team's go-to expert for data pulls supporting mass communications, analysis, and national reporting</li>
+                            <li>Designed and implemented a streamlined Nursing School application process, increasing application volume and improving reporting accuracy
                             </li>
-                            <li>
-                                Email Plans + Execution
-                                <p className="exampleDesc">
-                                While working with marketing on our emails I became the expert for injecting Liquid Markup (a ruby module?) into our emails. Through working with our emails I began to learn HTML/CSS as I needed to make small adjustments to emails created in [the program name].
-                                </p>
+                            <li>Developed Queens's first custom student application portal using HTML/CSS, enabling dynamic and branded content delivery to segmented student groups
                             </li>
-                            <li>
-                                Portals
-                                <p className="exampleDesc">
-                                    As Slate continued to grow much of it's newest functionality worked with 'Portals'. These were small webpages where you could users with pertinent information. I implemented our first custom portal at Queens for our Undergraduate applicants. I also created portals for our Coaches on Campus to track student athlete progress, portals as landing pages for several Admissions events among others. 
-                                </p>
-                            </li>
-                            <li>Engagement Scoring
-                                <p className="exampleDesc">
-                                    I two different scoring systems for student engagement. One calculated engagement across the last 7 days, it was intended to help counselors find students who were considering commiting to queens. The other had the goal of calculating student engagement across their entire lifetime in our database.
-                                </p>
-                            </li>
+                            <li>Supported data integration projects with IT and third-party partners, ensuring accuracy and consistency of exchanged datasets</li>
                         </ul>
                     </li>
                     <li>
-                        Application Processing
-                        <p className="expDesc">
-                            In our Undergraduate instance our office received around [X num] of applications each year across all semesters and programs. I helped plan, and maintain our workflows to eliminate barriers for student applicatins and allow our counselor team to efficently but throughlly review each application individually. 
-                        </p>
+                        <h3 className="experienceTitle">Admissions Counselor</h3>
                         <ul className="expExamples">
-                            <li>
-                                Reporting
-                                <p className="exampleDesc">
-                                    I created several applicaion funnel reports that were used daily by our VP and shared with the President.
-                                </p>
+                            <li>Served as primary point of contact for 150–200 prospective Adult and Transfer Students per semester, enrolling up to 50 students in a single term</li>
+                            <li>Managed Upper Division Nursing applications, collaborating with the Nursing Department to admit top candidates into a competitive program</li>
+                            <li>Delivered high-quality customer service through in-person meetings, phone consultations, and email communications</li>
+                            <li>Represented Queens University at community colleges across North Carolina, building relationships with students and advising staff
                             </li>
-                            <li>
-                                Review Forms + Workflows
-                                <p className="exampleDesc">
-                                    In the Undergrad review process, Queens utilized a holistic review process. There were several required forms to accuratly review an app. I created our review forms and ensured they worked seemsly across reviewers and programs. 
-                                </p>
-                            </li>
-                            <li>
-                                Nursing Application 
-                                <p className="exampleDesc">
-                                    I designed and implemented a new app flow for our upper division nursing program. In doing so I streamlined the process from requiring two separate applications to 1 straightforward application. We improved our app complete rate. This program had ~[X] apps.
-                                </p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                </Col>
-                <Col>
-                <h3 className="experienceTitle">Full Stack Engineering Cert</h3>
-                <p className="dates">02/2024 - 04/2025</p>
-                <p>
-                    This was a self-paced program that I enrolled in to advance my career. At times this program tested my resiliance, but it allowed me to continue flexing and growing my research and problem-solving skills. This program gave me foundational software development skills that will allow me to join a team and be ready to grow into a high developer. 
-                </p>
-                <ul>
-                    <li>
-                        RESTful API Conventions
-                        <p className="expDesc">
-                          I interacted with several different public APIs. I also wrote my own simple APIs using RESTful conventions. 
-                        </p>
-                        <ul className="expExamples">
-                            <li>
-                                example1
-                            </li>
-                            <li>
-                                example2
-                                <p className="exampleDesc">
-                                    example2 description
-                                    </p>    
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        JavaScript
-                        <p className="expDesc">
-                            Before we began learning how to create react applications, I was taught foundational JS skills
-                        </p>
-                    </li>
-                    <li>
-                        React
-                        <p className="expDesc">
-                            I have worked on several small React projects where I learned the basics of react. This has allowed me to both begin creating muscle memory of how to write react/JSX but also helped me begin to think about how to accomplish tasks in the most 'react-y' way. I built my applications useing Node.js and Express.js 
-                        </p>
-                    </li>
-                    <li>
-                        Flask/Django
-                        <p className="expDesc">
-                            Along with learning JS and React, my course spent time teaching us basics in Python, along with how to create a server in Flask and a front-end with Django. 
-                        </p>
-                    </li>
-                    <li>
-                        PostgreSQL
-                        <p className="expDesc">
-                            We used PostgreSQL in the certificate program. I have prior SQL experience from my time at Queens.
-                        </p>
-                    </li>
-                    <li>
-                        Git
-                        <p className="expDesc">
-                            I turned all of my assignements in via GitHub. I tracked my work via git locally, and pushed it to GitHub using both the Terminal and GitHub Desktop
-                        </p>
-                    </li>
-                    <li>
-                        Data Structures and Algorithms
-                        <p className="expDesc">
-                            This course spent time discussing different Data Structures and Algorithms.
-                        </p>
-                        <ul className="expExample">
-                            <li>Big O Notation</li>
-                            <li>Stacks and Queues</li>
-                            <li>Sorting Algos - bubble sort, name others (better ones)</li>
+                            <li>Reviewed and evaluated application materials as part of a holistic admissions process</li>
                         </ul>
                     </li>
                 </ul>
@@ -175,6 +71,12 @@ const Resume2 = () => {
         </Container>
         <Container>
             <h2>Education</h2>
+            <h3 className="experienceTitle">Software Engineering Certificate</h3>
+            <p className="dates">Gonzaga University -- 2025</p>
+            <h3 className="experienceTitle">Master of Business Administration</h3>
+            <p className="dates">Queens University of Charlotte -- 2020</p>
+            <h3 className="experienceTitle">Bachelor of Arts in Communication</h3>
+            <p className="dates">Queens University of Charlotte -- 2017</p>
         </Container>
         </>
     )
