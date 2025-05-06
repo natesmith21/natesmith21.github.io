@@ -1,0 +1,36 @@
+#profile_pic {
+    border-radius: 50%;
+    border: 2px hsl(217, 75%, 22%);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experienceTitle {
+    margin-bottom: 0;
+}
+
+.dates {
+    color: darkgrey;
+    font-size: .7em;
+
+}
+
+.expDesc {
+    color: hsl(217, 60%, 35%);
+    font-size: .75em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+.expExamples li {
+    list-style: inside;
+    font-size: 1rem;
+}
+
+.exampleDesc {
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    color: hsl(217, 60%, 35%);
+    font-size: .75rem;
+}

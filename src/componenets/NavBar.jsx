@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, NavItem } from "reactstrap";
+import { Navbar, Nav, NavItem, Container } from "reactstrap";
 import './nav.css';
 
 const NavBar = () => {
     return (
-        <div className="navContainer">
-        <Navbar expand="fluid">
+        <Navbar expand="lg">
           <NavLink className='home' to="/">
             natesmith
           </NavLink>
@@ -18,6 +17,9 @@ const NavBar = () => {
               <NavLink to="/resume">My Resume</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink to="/resume2">My (other) Resume</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink to="/projects">My Projects</NavLink>
             </NavItem>
             <NavItem>
@@ -25,7 +27,6 @@ const NavBar = () => {
             </NavItem>
           </Nav>
         </Navbar>
-      </div>
     );
 }
 

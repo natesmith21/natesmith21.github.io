@@ -17,7 +17,7 @@ const AboutMe = () => {
             At the beginning on 2024 I began a Full Stack Software Engineering Certificate through Gonzaga University, hosted by Springboard. In June, 2024 I lost my job at Queens due to budget reductions. After working through several personal and professional challenges in the past year, I have completed my Certificate and am looking for my next opportunity. As I begin my search, I'm looking for roles to combine the skills I have, and help me continue to build and polish my technial ability. I believe I could be a great fit on a Software Development team, a Sales or Marketing Ops Team, or potentially as a project manager.  
         </p>
         <p>
-            I have worked on a wide variey of projects. My bredth of knowledge is my strength. 
+            I have worked on a wide variey of projects. My bredth of knowledge is my strength. Over the course of my short career I have been working to grow my technial skillset and have 
         </p>
         <ul>
             <li>

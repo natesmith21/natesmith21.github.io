@@ -75,7 +75,7 @@ const Resume = () => {
                 <h2>Relevant Skills</h2>
                 <ul>
                     <li>
-                       SQL 
+                       SQL (postgres)
                     </li>
                     <li>
                        Python (Flask/Django)
@@ -85,6 +85,9 @@ const Resume = () => {
                     </li>
                     <li>
                         HTML/CSS
+                    </li>
+                    <li>
+                        git
                     </li>
                     <li>
                        Slate by Technolutions

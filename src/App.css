@@ -4,7 +4,7 @@
   padding: 2rem;
   /* text-align: center; */
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -31,4 +31,57 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+h1{ 
+  font-size: 2.5rem;
+  /* text-align: right; */
+  text-transform:capitalize;
+  color: hsl(217, 90%, 22%);
+  font-family: 'Vollkorn', serif;
+  font-style:italic;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 2rem;
+  text-transform: lowercase;
+  color: hsl(217, 90%, 22%);
+  font-family: 'Vollkorn' serif;
+  font-style:italic;
+}
+
+h3{
+  font-size: 1.3rem;
+  color: hsl(217, 60%, 45%);
+  font-family: 'Vollkorn', serif;
+}
+
+h4{
+  color: hsl(217, 60%, 45%);
+  font-family:'Karla', sans-serif;
+}
+
+p{
+  font-size: .90rem;
+  font-family:'Karla', sans-serif;
+  color: hsl(217, 6%, 20%);
+}
+
+li{ 
+  font-size: .90rem;
+  font-family:'Karla', sans-serif;
+  list-style: none;
+}
+
+#contact_info p{
+  text-align:right;
+  font-size: .85rem;
+  margin-top: 0;
+}
+
+a{
+  text-decoration: none;
+  color:olive;
 }
