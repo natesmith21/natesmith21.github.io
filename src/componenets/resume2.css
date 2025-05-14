@@ -24,8 +24,7 @@
 }
 
 .expExamples li {
-    list-style: inside;
-    font-size: 1rem;
+    margin-bottom: .5em;
 }
 
 .exampleDesc {
