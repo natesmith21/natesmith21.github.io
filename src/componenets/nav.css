@@ -13,4 +13,11 @@
 
 .home{
     margin: 0 2em;
+    text-decoration: none;
+    color:olive;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color:olive;
 }

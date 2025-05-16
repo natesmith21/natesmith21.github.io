@@ -10,10 +10,10 @@ const Resume = () => {
         <Container fluid="md" className="intro">
          <img src={headshot} id="profile_pic" alt="Nate Smith Headshot" />
          <h1>Nathan Smith</h1>
-         <h2>Summary</h2>
-         <p>
+         {/* <h2>Summary</h2> */}
+         {/* <p>
          Versatile operations specialist with 7+ years of experience harnessing data, CRM systems, and process improvements to drive admissions and enrollment success. Proven track record of building scalable database solutions, leading reporting initiatives, and collaborating cross-functionally to solve complex problems. Just completed a Full Stack Software Development Certificate to deepen technical expertise and transition into a software development role. Unique blend of business acumen (MBA), technical proficiency, and analytical rigor — poised to contribute as a developer with strong operational insight.
-         </p>
+         </p> */}
         </Container>
             <h2>Experience</h2>
             <Container className="experience">
