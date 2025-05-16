@@ -1,3 +1,20 @@
+
+.resume ul {
+    list-style: none;
+}
+
+.intro {
+    display: flex;
+    margin-bottom: 2em;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.intro h1 {
+    flex-basis: auto;
+}
+
 #profile_pic {
     border-radius: 50%;
     border: 2px hsl(217, 75%, 22%);
@@ -6,30 +23,25 @@
     object-fit: cover;
 }
 
-.experienceTitle {
+.skillGroup {
+    font-weight: 700;
+}
+
+.exampleTitle {
+    margin-bottom: 0;
+}
+
+.employer {
     margin-bottom: 0;
 }
 
 .dates {
     color: darkgrey;
-    font-size: .7em;
+    font-size: .8em;
 
 }
 
-.expDesc {
-    color: hsl(217, 60%, 35%);
-    font-size: .75em;
-    margin-left: .5em;
+.examplesExp li {
     margin-bottom: .5em;
 }
 
-.expExamples li {
-    margin-bottom: .5em;
-}
-
-.exampleDesc {
-    margin-left: 1.5em;
-    margin-bottom: 0;
-    color: hsl(217, 60%, 35%);
-    font-size: .75rem;
-}
