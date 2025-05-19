@@ -1,5 +1,11 @@
 
+.aboutMe {
+    max-width: 75vw;
+}
+
 .aboutMe p{
     text-align: left;
+    max-width: 65vw;
+    margin: 1rem auto;
 }
 

@@ -1,97 +1,39 @@
 import React, { useState } from "react";
-import {
-    Carousel,
-    CarouselItem,
-    CarouselControl,
-    CarouselIndicators,
-    CarouselCaption,
+import { 
+  Container
   } from 'reactstrap';
 
 
-  const items = [
-    {
-      src: 'https://picsum.photos/id/123/1200/400',
-      altText: 'Slide 1',
-      caption: 'Slide 1',
-      key: 1,
-    },
-    {
-      src: 'https://picsum.photos/id/456/1200/400',
-      altText: 'Slide 2',
-      caption: 'Slide 2',
-      key: 2,
-    },
-    {
-      src: 'https://picsum.photos/id/678/1200/400',
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      key: 3,
-    },
-  ];
-
 
 const Projects = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-    const [animating, setAnimating] = useState(false);
-  
-    const next = () => {
-      if (animating) return;
-      const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-      setActiveIndex(nextIndex);
-    };
-  
-    const previous = () => {
-      if (animating) return;
-      const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-      setActiveIndex(nextIndex);
-    };
-  
-    const goToIndex = (newIndex) => {
-      if (animating) return;
-      setActiveIndex(newIndex);
-    };
-  
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={() => setAnimating(true)}
-          onExited={() => setAnimating(false)}
-          key={item.src}
-        >
-          <img src={item.src} alt={item.altText} />
-          <CarouselCaption
-            captionText={item.caption}
-            captionHeader={item.caption}
-          />
-        </CarouselItem>
-      );
-    });
 
     return (
         <>
-        <h2>My Projects</h2>
-        <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-        >
-      <CarouselIndicators
-        items={items}
-        activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-      <CarouselControl
-        direction="prev"
-        directionText="Previous"
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        direction="next"
-        directionText="Next"
-        onClickHandler={next}
-      />
-    </Carousel>
+        <Container>
+          <h2>My Projects</h2>
+            <ul className="examples">
+                <li>
+                    <h4 className="projectTitle">Who's Hungry?</h4>
+                    <p className="workLinks"><a href="https://github.com/natesmith21/whos-hungry" target="_blank">GitHub</a> | <a href="https://whos-hungry-frontend.onrender.com/" target="_blank">Who's Hungry?</a></p>
+                    <p className="projectDesc"> Used React, Node, Express, PostgreSQL, and ReactStrap, to build a webpage to function as a recipe finder. </p>
+                </li>
+                <li>
+                    <h4 className="projectTitle">Jobly</h4>
+                    <p className="workLinks"><a href="https://github.com/natesmith21/react-jobly-frontend" target="_blank">GitHub</a> | <a href="https://react-jobly-frontend-ki3b.onrender.com/" target="_blank">Jobly</a></p>
+                    <p className="projectDesc"> I was provided a backend and filler data, then used React, Node, Express, PostgreSQL, and ReactStrap to build a job search platform. </p>
+                </li>
+                <li>
+                    <h4 className="projectTitle">Database DJ</h4>
+                    <p className="workLinks"><a href="https://github.com/hatchways-community/database-dj-672e1e3b746348dc9ac57f1a0675c68a" target="_blank">GitHub</a> | </p>
+                    <p className="projectDesc"> I created a simple Flask App using Django where users can create playlists. </p>
+                </li>
+                <li>
+                    <h4 className="projectTitle">Github: natesmith21</h4>
+                    <p className="workLinks"><a href="https://github.com/natesmith21" target="_blank">GitHub</a> | </p>
+                    <p className="projectDesc"> Feel free to check out any of my other work I'm done on my GitHub page. Currently, it's full of homework assignments from my certificate program. </p>
+                </li>
+            </ul>
+        </Container>
         </>
     )
 }
