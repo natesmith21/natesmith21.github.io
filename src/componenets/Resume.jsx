@@ -3,11 +3,10 @@ import './resume2.css'
 import headshot from '../assets/nate_lake_canada.png'
 import { Container, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import smithn_resume from '../assets/smithn_resume.pdf'
 
 
 const Resume = () => {
-
-    const resume = 'https://github.com/natesmith21/natesmith21.github.io/blob/cfa27f7aea10121b522696d9f9abf9ef9dcdfa7d/src/assets/smithn_resume.pdf'
 
     return (
         <div className="resume">
@@ -15,7 +14,7 @@ const Resume = () => {
          <img src={headshot} id="profile_pic" alt="Nate Smith Headshot" />
          <div>
             <h1>Nathan Smith</h1>
-            <Link className="downloadLink" to={resume} target="_blank">Download Resume</Link>
+            <a className="downloadLink" href={smithn_resume} target="_blank" >Download Resume</a>
          </div>
         </Container>
         <Container className="skills">
