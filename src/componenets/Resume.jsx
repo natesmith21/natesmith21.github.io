@@ -2,6 +2,7 @@ import React from "react";
 import './resume2.css'
 import headshot from '../assets/nate_lake_canada.png'
 import { Container, Col } from "reactstrap";
+import getResume from "../helpers/downloadResume";
 
 const Resume = () => {
 
@@ -10,6 +11,7 @@ const Resume = () => {
         <Container fluid="md" className="intro">
          <img src={headshot} id="profile_pic" alt="Nate Smith Headshot" />
          <h1>Nathan Smith</h1>
+         <button onClick={getResume()}>Download Resume</button>
         </Container>
         <Container className="skills">
             <h2>Skills</h2>
