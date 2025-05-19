@@ -20,7 +20,7 @@ h1{
 h2{
   text-transform: lowercase;
   color: hsl(217, 90%, 22%);
-  font-family: 'Vollkorn' serif;
+  font-family: 'Vollkorn', serif;
   font-style:italic;
 }
 
@@ -31,5 +31,9 @@ h3{
 
 h4{
   color: hsl(217, 60%, 45%);
+  font-family:'Karla', sans-serif;
+}
+
+p{
   font-family:'Karla', sans-serif;
 }
