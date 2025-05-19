@@ -2,16 +2,21 @@ import React from "react";
 import './resume2.css'
 import headshot from '../assets/nate_lake_canada.png'
 import { Container, Col } from "reactstrap";
-import getResume from "../helpers/downloadResume";
+import { Link } from "react-router-dom";
+
 
 const Resume = () => {
+
+    const resume = 'https://github.com/natesmith21/natesmith21.github.io/blob/cfa27f7aea10121b522696d9f9abf9ef9dcdfa7d/src/assets/smithn_resume.pdf'
 
     return (
         <div className="resume">
         <Container fluid="md" className="intro">
          <img src={headshot} id="profile_pic" alt="Nate Smith Headshot" />
-         <h1>Nathan Smith</h1>
-         <button onClick={getResume()}>Download Resume</button>
+         <div>
+            <h1>Nathan Smith</h1>
+            <Link className="downloadLink" to={resume} target="_blank">Download Resume</Link>
+         </div>
         </Container>
         <Container className="skills">
             <h2>Skills</h2>

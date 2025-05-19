@@ -1,4 +1,14 @@
 
+.downloadLink {
+    font-size: .8em;
+    margin-top: 0;
+    color:hsl(217, 75%, 22%)
+}
+
+.intro h1 {
+    margin-bottom: 0;
+}
+
 .resume ul {
     list-style: none;
 }
@@ -9,10 +19,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 5%;
-}
-
-.intro h1 {
-    flex-basis: auto;
 }
 
 #profile_pic {
