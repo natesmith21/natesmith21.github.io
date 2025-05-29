@@ -59,7 +59,7 @@ const ContactForm = () => {
                     Let's Connect! 
                 </h2>
                 <p>
-                    If you'd like to conact me, please fill out the form below. I will be sure to respond as soon as possible. 
+                    If you'd like to contact me, please fill out the form below. I will be sure to respond as soon as possible. 
                 </p>            
                 <Form>
                 <FormGroup>
