@@ -18,22 +18,71 @@ const Resume = () => {
          </div>
         </Container>
         <Container className="skills">
-            <h2>Skills</h2>
+            <h2>Core Competencies & Technical Skills</h2>
             <ul>
                 <li>
-                    <span className="skillGroup">CRM Management:</span> Slate, Jenzabar, PowerFAIDs
+                    <span className="skillGroup">Admissions Marketing Strategy:</span> Integrated campaign development, lifecycle messaging, audience segmentation, enrollment funnel strategy, student-centered communications design
                 </li>
                 <li>
-                    <span className="skillGroup">Programming & Web Development:</span> JavaScript (Node.js, Express.js, React), Python (Flask, Django), HTML/CSS
+                    <span className="skillGroup">Enrollment Analytics & Reporting:</span> Funnel analytics, dashboard design, data-informed communications optimization, SQL, Excel, Power BI, Tableau
                 </li>
                 <li>
-                    <span className="skillGroup">Database & APIs:</span> SQL (PostgreSQL), RESTful APIs
+                    <span className="skillGroup">Software:</span> HTML/CSS, Liquid Markup, Python (Flask), JavaScript, Node.js, React, Bootstrap, PicoCSS, PostgreSQL, Git/GitHub
                 </li>
                 <li>
-                    <span className="skillGroup">Data & Reporting:</span> Querying, Data Migration, Funnel Reporting, Dashboards
+                    <span className="skillGroup">Leadership & Collaboration:</span> Staff supervision, cross-unit coordination, project planning, stakeholder management, Agile/Scrum, Jira, Microsoft Planner
                 </li>
                 <li>
-                    <span className="skillGroup">Tools:</span> SFTP, Liquid Markup, Git/GitHub, GitHub Desktop
+                    <span className="skillGroup">Tools:</span> SFTP, Git/GitHub, GitHub Desktop
+                </li>
+            </ul>
+        </Container>
+
+        <Container className="experience">
+            <h2>Experience</h2>
+            <h3 className="employer">YMCA of the Inland Northwest</h3>
+            <p className="dates">Spokane, WA -- June 2025 - Present</p>
+            <ul className="examples">
+                <li>
+                    <h4 className="exampleTitle">Facilities Technician</h4>
+                    <ul className="examplesExp">
+                        <li>Independently scope and execute facility maintenance projects at the South Branch</li>
+                        <li>Also work with CEO as the Software Development Project Manager, assistnating with Monday.com configuration and programming projects</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3 className="employer">Queens University of Charlotte</h3>
+            <p className="dates">Charlotte, NC -- July 2017 - June 2024</p>
+            <ul className="examples">
+                <li>
+                <h4 className="exampleTitle">Assistant Director for Enrollment Operations</h4>
+                    <ul className="examplesExp">
+                        <li>
+                       Maintained data pipelines between Admissions, Student Financial Services, the Registrar’s Office and Institutional Research
+                        </li>
+                        <li>
+                       Created and maintained executive level reports for the President and VPs to track the admissions funnel   
+                        </li>
+                        <li>
+                        Led yearly ‘cycle-prep’, preparing Applications, Events, Forms, and Portals for the next recruitment class
+                        </li>
+                        <li>
+                        Collaborated with marketing to deliver timely, informative recruitment messaging to prospective students and their families
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <h4 className="exampleTitle">Admissions Operations Analyst</h4>
+                    <ul className="examplesExp">
+                        <li>Created first custom application portal to dynamically display relevant information to prospective students</li>
+                        <li>Overhauled Nursing School application, eliminating the need for 2 separate applications. This improved the completed application rate and simplified the review process. Our team was able to fill the nursing program and begin holding a waitlist of admitted students. 
+                        </li>
+                        <li>Created an on-demand year to date year-over-year funnel report
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4 className="exampleTitle">Admissions Counselor</h4>
                 </li>
             </ul>
         </Container>
@@ -55,54 +104,23 @@ const Resume = () => {
                 </li>
             </ul>
         </Container>
-
-        <Container className="experience">
-            <h2>Experience</h2>
-            <h3 className="employer">Queens University of Charlotte</h3>
-            <p className="dates">Charlotte, NC -- July 2017 - June 2024</p>
+        <Container>
+            <h2><a href="/projects" id="projects">Projects</a></h2>
+        </Container>
+        <Container>
+            <h2>Additional Information</h2>
             <ul className="examples">
                 <li>
-                <h4 className="exampleTitle">Assistant Director for Enrollment Operations</h4>
-                    <ul className="examplesExp">
-                        <li>
-                        Partnered with the Vice President and Director of Admissions to guide, track, and optimize office workflows using data-driven insights
-                        </li>
-                        <li>
-                        Managed and maintained Slate CRM database tools, building enhanced functionality for application processing and communication   
-                        </li>
-                        <li>
-                        Wrote queries to export data for internal stakeholders and external partners (via API and SFTP)
-                        </li>
-                        <li>
-                        Maintained application portal views for applicants, admitted, and committed students, delivering custom content throughout the enrollment funnel
-                        </li>
-                        <li>Led reporting efforts, creating and maintaining mission-critical reports for leadership</li>
-                        <li>Created and maintained documentation for all systems and reporting workflows
-                        </li>
-                        <li>Organized weekly call lists to support counselor outreach and enrollment initiatives</li>
-                    </ul>
+                    <h4 className="exampleTitle">Seasonal Brush Cut Team</h4>
+                    <p className="dates">Mt. Spokane Ski and Snowboard Park</p>
                 </li>
                 <li>
-                <h4 className="exampleTitle">Admissions Operations Analyst</h4>
-                    <ul className="examplesExp">
-                        <li>Self-taught advanced Slate query writing; became the team's go-to expert for data pulls supporting mass communications, analysis, and national reporting</li>
-                        <li>Designed and implemented a streamlined Nursing School application process, increasing application volume and improving reporting accuracy
-                        </li>
-                        <li>Developed Queens's first custom student application portal using HTML/CSS, enabling dynamic and branded content delivery to segmented student groups
-                        </li>
-                        <li>Supported data integration projects with IT and third-party partners, ensuring accuracy and consistency of exchanged datasets</li>
-                    </ul>
+                    <h4 className="exampleTitle">NCAA DII Athlete XC/Track & Field</h4>
+                    <p className="dates">Queens University of Charlotte</p>
                 </li>
                 <li>
-                    <h4 className="exampleTitle">Admissions Counselor</h4>
-                    <ul className="examplesExp">
-                        <li>Served as primary point of contact for 150–200 prospective Adult and Transfer Students per semester, enrolling up to 50 students in a single term</li>
-                        <li>Managed Upper Division Nursing applications, collaborating with the Nursing Department to admit top candidates into a competitive program</li>
-                        <li>Delivered high-quality customer service through in-person meetings, phone consultations, and email communications</li>
-                        <li>Represented Queens University at community colleges across North Carolina, building relationships with students and advising staff
-                        </li>
-                        <li>Reviewed and evaluated application materials as part of a holistic admissions process</li>
-                    </ul>
+                    <h4 className="exampleTitle">Spanish Speaker</h4>
+                    <p className="dates">Intermediate level</p>
                 </li>
             </ul>
         </Container>

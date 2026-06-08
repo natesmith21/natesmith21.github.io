@@ -18,6 +18,7 @@ const AboutMe = () => {
             Accurate data is integral for decision making. I built and designed custom reports and queries used by our President and VPs. Using Slate's report builder I created a year over year compairson report which showed our sales funnel data over 3 years to the day. I built and maintained queries used by Instituational Reporting which they used to report to the Department of Education. I designed review workflows for our internal admissions staff to review basic undergraduate applications and nursing program applications, as well as external faculty partners for honors programs.   
         </p>
 
+
         <p>
             Lasly, I collobrated with our Marketing department to design robust, personalized email and text campaigns for prospecitve students. I maintained queries of email recipients, and built emails using HTML/CSS and Liquid Markup. The marketing team and I worked together to design student facing portals, which I implemented  using HTML/CSS, Liquid Markup and JavaScript. 
         </p>
