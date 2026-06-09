@@ -105,7 +105,7 @@ const Resume = () => {
             </ul>
         </Container>
         <Container>
-            <h2><a href="/projects" id="projects">Projects</a></h2>
+            <h2><a href="#/projects" id="projects">Projects</a></h2>
         </Container>
         <Container>
             <h2>Additional Information</h2>
