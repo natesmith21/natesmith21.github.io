@@ -8,25 +8,31 @@ const AboutMe = () => {
         <h2>Nate Smith</h2>
         <section className="aboutMe">
         <p>
-            I live in Spokane, WA with my wife and dog. We moved here from Charlotte, North Carolina in 2022 for my wife, Karla, to pursue her JD at Gonzaga University. I completed a BA in Communication in 2017 and an MBA in 2020, both from Queens University of Charlotte. I'm currently searching for my next career.
+            I live in Spokane, WA with my wife, Karla, and our dog. We moved here from Charlotte, North Carolina in 2022 for Karla to pursue her JD at Gonzaga University. I hold a BA in Communication (2017) and an MBA (2020), both from Queens University of Charlotte, and I'm currently searching for my next role.
         </p>
         <p>
-            In my previous experience at Queens University I worked primarily in our Admissions CRM, Slate. I ensured that we could collect information accuratly and effectively from studetns. I used data collected from students in the application as well as cookies, UTM tracking and integrated data from the Financial Aid office to guide our admissions staff's recruitment efforts. I was the intersection of Admissions, IT, the Registrar's Office and Student Financial Services and ensured that data was integrated across each of our systems. Accurate and regular flow of information was vital for us to provide studetns with complete informaion to inform their enrollment decision. 
+            What ties my work together is a single thread: I sit between the business and the technology, and I make sure data moves accurately between the two.
+        </p>
+        <p>
+            At Queens University, I worked primarily in our admissions CRM, Slate. I made sure we collected information from students accurately and efficiently, then put that data to work — combining application responses, cookies, UTM tracking, and integrated data from the Financial Aid office to guide our recruitment efforts. I was the intersection of Admissions, IT, the Registrar's Office, and Student Financial Services, responsible for keeping data consistent across every system. That accurate, reliable flow of information was what let us give students the complete picture they needed to make an enrollment decision. 
         </p>
 
         <p>
-            Accurate data is integral for decision making. I built and designed custom reports and queries used by our President and VPs. Using Slate's report builder I created a year over year compairson report which showed our sales funnel data over 3 years to the day. I built and maintained queries used by Instituational Reporting which they used to report to the Department of Education. I designed review workflows for our internal admissions staff to review basic undergraduate applications and nursing program applications, as well as external faculty partners for honors programs.   
+            Good decisions depend on good data, so I built the tools that surfaced it. Using Slate's report builder, I designed custom reports and queries for our President and VPs, including a year-over-year comparison report that tracked our enrollment funnel across three years to the day. I built and maintained the queries Institutional Reporting used to report to the Department of Education. I also designed the review workflows our admissions staff used to evaluate undergraduate and nursing applications, along with the workflows external faculty used to review honors program candidates.   
         </p>
 
         <p>
-            Lasly, I collobrated with our Marketing department to design robust, personalized email and text campaigns for prospecitve students. I maintained queries of email recipients, and built emails using HTML/CSS and Liquid Markup. The marketing team and I worked together to design student facing portals, which I implemented  using HTML/CSS, Liquid Markup and JavaScript. 
+           I worked closely with our Marketing department to design personalized email and text campaigns for prospective students. I maintained the recipient queries, built the emails in HTML/CSS and Liquid Markup, and partnered with marketing to design student-facing portals, which I implemented using HTML/CSS, Liquid Markup, and JavaScript. 
         </p>
         <p>
-        	At the beginning of 2024 I began a Full Stack Software Engineering Certificate through Gonzaga University, hosted by Springboard which I completed in May of 2025. Currenly I work at the YMCA of the Inland Northwest where I serve as my branch's Facilites Director. Despite stark differences on the surface, I see overlap in the skills I use to be successful in both positions. I regularly lean on my ability to break down big, complex problems into smaller steps as well as my research skills allow me to find accurate documentation, manuals and guides to assist me in producing the best work I can and clear any roadblocks I may have.
+            In early 2024 I began a Full Stack Software Engineering Certificate through Gonzaga University, hosted by Springboard, and completed it in May 2025 — formalizing skills I'd already been teaching myself on the job.
         </p>
         <p>
-            I have worked on a wide variety of projects. My breadth of knowledge is my strength. Over the course of my short career I have been working to grow my technical skillset and striving to be an impactful member of every team I join. Wheather a system quesion, or a maintence question my answer is almost never "I don't know", but "I can find out". I strive to be the go-to person to get high quality work done in a timely manner.
+            Today I work at the YMCA of the Inland Northwest as my branch's Facilities Technician. The two roles look nothing alike on the surface, but I rely on the same skills in both: breaking big, complex problems into manageable steps, and digging into documentation, manuals, and guides to find the right answer and clear whatever roadblock is in my way.
 
+        </p>
+        <p>
+            That's the thread through everything I do — business, data, and engineering — and it's where I'm at my best. Whether it's a systems question or a maintenance one, my answer is almost never "I don't know." It's "I can find out." I aim to be the person a team trusts to get high-quality work done, and done on time.
         </p>
         </section>
         </>
